@@ -1,3 +1,97 @@
+# 💬 Slackr Setup Guide
+
+A simple Slack-style chat application with a **Node.js + Express backend** and a **Vanilla JS frontend**.
+
+---
+
+## ⚙️ 1. Backend Setup
+
+### 📍 Step 1 — Enter the backend folder
+```bash
+cd backend
+```
+
+### 📦 Step 2 — Install dependencies
+```bash
+npm install
+```
+
+### 🚀 Step 3 — Start the backend server
+```bash
+npm start
+```
+
+You should see this message in the terminal:
+```
+Backend is now listening on port 5005!
+For API docs, navigate to http://localhost:5005
+```
+
+✅ The backend API will be available at:
+```
+http://localhost:5005
+```
+
+To view the API documentation:
+```
+http://localhost:5005/docs
+```
+
+---
+
+## 💻 2. Frontend Setup
+
+### 🗂️ Step 1 — Open in WebStorm (or any IDE)
+
+Locate:
+```
+frontend/index.html
+```
+
+### ▶️ Step 2 — Run the frontend
+
+Right-click `index.html` → **Run 'index.html'**  
+WebStorm will open it automatically in your browser, usually at:
+```
+http://localhost:63342/slackr/frontend/index.html
+```
+
+The frontend will automatically connect to the backend running on port **5005**.
+
+---
+
+## 🧠 3. Quick Summary
+
+| Component | Command / Action | Description |
+|------------|------------------|-------------|
+| Backend | `cd backend` → `npm install` → `npm start` | Starts the API server |
+| Frontend | Open `frontend/index.html` → Run | Opens the chat interface |
+| API Docs | Visit `http://localhost:5005/docs` | Swagger API documentation |
+
+---
+
+## 🔧 Notes
+
+- The first run will automatically create a `database.json` file in the root directory.
+- If you get `Invalid token`, run in your browser console:
+  ```js
+  localStorage.clear();
+  ```
+- Make sure no other service is using **port 5005**.  
+  If needed, you can change the port in:
+  ```
+  frontend/config.js
+  ```
+
+---
+
+✅ Once both backend and frontend are running, you can **register**, **login**, **create channels**, and **start chatting!**
+
+
+
+
+
+
 # Assessment 3 - Vanilla JS: Slackr
 
 1. Background & Motivation

@@ -1,20 +1,12 @@
 {
   "users": {
-    "15272": {
-      "email": "mia@email.com",
-      "name": "Mia",
-      "password": "solongbouldercity",
-      "bio": null,
-      "image": null,
-      "sessionActive": true
-    },
     "56422": {
       "email": "sebastian@email.com",
       "name": "Sebastian",
       "password": "chickenonastick",
       "bio": null,
       "image": null,
-      "sessionActive": true
+      "sessionActive": false
     }
   },
   "channels": {
@@ -22,13 +14,160 @@
       "name": "public channel",
       "creator": 15272,
       "private": false,
-      "description": "",
+      "description": "huhu",
       "createdAt": "2021-09-13T08:00:03.220Z",
       "members": [
         15272,
-        56422
+        56422,
+        37770,
+        73516,
+        34171,
+        72281
       ],
       "messages": [
+        {
+          "id": 152,
+          "message": "how's going?",
+          "image": "",
+          "sender": 34171,
+          "sentAt": "2023-10-27T08:23:07.342Z",
+          "edited": false,
+          "editedAt": null,
+          "pinned": false,
+          "reacts": []
+        },
+        {
+          "id": 151,
+          "message": "hi, i BACK",
+          "image": "",
+          "sender": 34171,
+          "sentAt": "2023-10-27T08:22:12.415Z",
+          "edited": false,
+          "editedAt": null,
+          "pinned": false,
+          "reacts": []
+        },
+        {
+          "id": 150,
+          "message": "??",
+          "image": "",
+          "sender": 73516,
+          "sentAt": "2023-10-27T08:13:26.151Z",
+          "edited": false,
+          "editedAt": null,
+          "pinned": false,
+          "reacts": []
+        },
+        {
+          "id": 149,
+          "message": "23333",
+          "image": "",
+          "sender": 73516,
+          "sentAt": "2023-10-27T08:13:19.604Z",
+          "edited": false,
+          "editedAt": null,
+          "pinned": false,
+          "reacts": []
+        },
+        {
+          "id": 148,
+          "message": "",
+          "image": "",
+          "sender": 73516,
+          "sentAt": "2023-10-27T08:13:14.077Z",
+          "edited": false,
+          "editedAt": null,
+          "pinned": false,
+          "reacts": []
+        },
+        {
+          "id": 147,
+          "message": "",
+          "image": "",
+          "sender": 73516,
+          "sentAt": "2023-10-27T08:13:14.048Z",
+          "edited": false,
+          "editedAt": null,
+          "pinned": false,
+          "reacts": []
+        },
+        {
+          "id": 146,
+          "message": "",
+          "image": "",
+          "sender": 73516,
+          "sentAt": "2023-10-27T08:13:13.503Z",
+          "edited": false,
+          "editedAt": null,
+          "pinned": false,
+          "reacts": []
+        },
+        {
+          "id": 145,
+          "message": "",
+          "image": "",
+          "sender": 73516,
+          "sentAt": "2023-10-27T08:13:10.086Z",
+          "edited": false,
+          "editedAt": null,
+          "pinned": false,
+          "reacts": []
+        },
+        {
+          "id": 144,
+          "message": "hi guys",
+          "image": "",
+          "sender": 73516,
+          "sentAt": "2023-10-27T08:10:42.078Z",
+          "edited": false,
+          "editedAt": null,
+          "pinned": false,
+          "reacts": []
+        },
+        {
+          "id": 143,
+          "message": "",
+          "image": "",
+          "sender": 73516,
+          "sentAt": "2023-10-27T08:10:38.639Z",
+          "edited": false,
+          "editedAt": null,
+          "pinned": false,
+          "reacts": []
+        },
+        {
+          "id": 142,
+          "message": "",
+          "image": "",
+          "sender": 73516,
+          "sentAt": "2023-10-27T08:10:37.810Z",
+          "edited": false,
+          "editedAt": null,
+          "pinned": false,
+          "reacts": []
+        },
+        {
+          "id": 141,
+          "message": "",
+          "image": "",
+          "sender": 73516,
+          "sentAt": "2023-10-27T08:10:36.796Z",
+          "edited": false,
+          "editedAt": null,
+          "pinned": false,
+          "reacts": []
+        },
+        {
+          "id": 140,
+          "message": "huhu",
+          "image": "",
+          "sender": 37770,
+          "sentAt": "2023-10-26T07:35:53.435Z",
+          "edited": false,
+          "editedAt": null,
+          "pinned": false,
+          "reacts": []
+        },
         {
           "id": 42,
           "message": "yeah, i do! i just didn't think that you did",
@@ -452,5 +591,5 @@
       ]
     }
   },
-  "nextMessageId": 43
+  "nextMessageId": 160
 }
