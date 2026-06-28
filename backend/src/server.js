@@ -21,6 +21,7 @@ import {
   updateChannel,
   joinChannel,
   leaveChannel,
+  deleteChannel,
   inviteChannel,
   getUsers,
   getUser,
@@ -131,6 +132,12 @@ app.post('/channel/:channelId/leave', catchErrors(authed(async (req, res, authUs
   return res.status(200).send({});
 })));
 
+app.delete('/channel/:channelId', catchErrors(authed(async (req, res, authUserId) => {
+  const { channelId, } = req.params;
+  await assertValidChannel(channelId);
+  await deleteChannel(authUserId, channelId);
+  return res.status(200).send({});
+})));
 app.post('/channel/:channelId/invite', catchErrors(authed(async (req, res, authUserId) => {
   const { channelId, } = req.params;
   const { userId, } = req.body;
@@ -240,3 +247,6 @@ const server = app.listen(port, () => {
 });
 
 export default server;
+
+
+
